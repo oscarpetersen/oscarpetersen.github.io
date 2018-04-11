@@ -28,7 +28,7 @@ background-size: cover;
 div.hack{
 left: 0%;
 width: 80px;
-position: relative;
+position: absolute;
 border-style: solid;
 border-color: #E69910;
 border-width: 5px;
