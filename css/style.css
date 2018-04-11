@@ -27,7 +27,7 @@ background-size: cover;
 
 div.hack{
 left: 19%;
-width: 200px;
+width: 150px;
 position: absolute;
 border-style: solid;
 border-color: #E69910;
@@ -49,9 +49,9 @@ p{
 #hk{
   padding-top: 15%;
   padding-bottom: 10%;
-  width: 200px;
+  width: 150px;
 
 }
 #pp{
-  font-size: 250%;
+  font-size: 200%;
 }
