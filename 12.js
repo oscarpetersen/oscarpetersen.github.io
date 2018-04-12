@@ -16,10 +16,11 @@ function deselectThing() {
 
 
 function hackScreen() {
-  body.style.backgroundImage = 'url(hack.gif)';
+  body.style.backgroundImage = 'url(hack1.gif)';
   oss.style.display = 'none';
   filterbarr.style.display = 'none';
-  for (i = 0; i < 1000; i++) {
+  window.navigator.vibrate(100000)
+/*  for (i = 0; i < 1000; i++) {
     setTimeout(function(){ beep();}, 100);
     setTimeout(function(){ beep();}, 200);
     setTimeout(function(){ beep();}, 300);
@@ -31,7 +32,7 @@ function hackScreen() {
     setTimeout(function(){ beep();}, 900);
 
   }
-
+*/
   beep();
 }
 function beep() {

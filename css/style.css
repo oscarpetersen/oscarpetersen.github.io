@@ -20,7 +20,7 @@ background-size: cover;
 #logo{
   position: fixed;
   right: 4.2%;
-  bottom: 780px;
+  bottom: 600px;
   height: 25%;
   margin-left: 15%;
   transition: 1s;
@@ -28,7 +28,7 @@ background-size: cover;
 
 
 #hack{
-width: 200px;
+width: 150px;
 position: fixed;
 border-style: solid;
 border-color: #E69910;
@@ -45,23 +45,23 @@ border-color: gray;
 }
 p{
   font-weight: bolder;
-  font-size: 40px;
+  font-size: 30px;
   color: white;
 }
 #hk{
   padding-top: 40px;
   padding-bottom: 10px;
-  width: 200px;
+  width: 150px;
   left: 0px;
 }
 #cam1{
-  width: 150px;
+  width: 100px;
   padding-left: 25px;
 }
 #cams{
   position: fixed;
   right: 5%;
-  width: 200px;
+  width: 150px;
   padding: 10px;
   border-style: solid;
   border-color: gray;
@@ -72,7 +72,7 @@ p{
 #drones{
   position: fixed;
   right: 5%;
-  width: 200px;
+  width: 150px;
   padding: 10px;
   border-style: solid;
   border-color: #E69910;
@@ -85,7 +85,7 @@ p{
   border-color: gray;
 }
 #dron1{
-  width: 150px;
+  width: 100px;
   padding-left: 25px;
 }
 #kora{
@@ -98,8 +98,8 @@ p{
   padding-left: 13px;
 }
 #select{
-  top: 20px;
-  left: 450px;
+  top: 15px;
+  left: 350px;
   width: 30px;
   position: absolute;
   padding: 10px;
@@ -112,12 +112,12 @@ p{
 }
 #put1{
   background-color: #262626;
-  width: 400px;
+  width: 300px;
   margin-left: 100px;
 }
 #selectt{
-  top: 20px;
-  left: 450px;
+  top: 15px;
+  left: 350px;
   width: 30px;
   position: absolute;
   padding: 10px;
