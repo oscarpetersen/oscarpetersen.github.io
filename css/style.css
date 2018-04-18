@@ -1,124 +1,76 @@
 *{
+  font-family: sans-serif;
+  font-size: 20px;
   margin: 0;
 }
+#prof{
+  width: 200px;
+  margin-left: 50%;
+  border-radius: 10px;
+  box-shadow: 0px 0px 20px; #888888;
+          transition:         transform 1s ease-in-out;
+}
+#prof:hover{
+          transform: rotate(720deg);
+}
 body{
-background: url(dokk.jpg);
-background-repeat: no-repeat;
-background-size: cover;
+  background: #0be881;
 }
-#oss{
-  position: absolute;
-  float: right;
-  background: url(menu.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 100%;
-  width: 22%;
-  position: fixed;
-  right: 0px;
+#button1{
+  border-radius: 10px;
+  background: #4CAF50;
+  color: white;
+  border: none;
+  margin: 10px;
+  box-shadow: 0px 0px 20px; #888888;
 }
-#logo{
-  position: fixed;
-  right: 4.2%;
-  bottom: 600px;
-  height: 25%;
-  margin-left: 15%;
-  transition: 1s;
-}
-
-
-#hack{
-width: 150px;
-position: fixed;
-border-style: solid;
-border-color: #E69910;
-border-width: 5px;
-padding: 10px;
-border-radius: 10px;
-right: 5%;
-top: 57%;
-transition: 1s;
-}
-#hack:hover{
-
-border-color: gray;
+h2{
+  padding: 10px;
 }
 p{
-  font-weight: bolder;
-  font-size: 30px;
-  color: white;
-}
-#hk{
-  padding-top: 40px;
+  padding-left: 10px;
   padding-bottom: 10px;
-  width: 150px;
-  left: 0px;
 }
-#cam1{
-  width: 100px;
-  padding-left: 25px;
+ul {
+    font-weight: bold;
+    list-style-type: none;
+    margin: 0 auto;
+    margin-top: 50px;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    box-shadow: 0px 0px 20px; #888888;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    width: 50%;
 }
-#cams{
-  position: fixed;
-  right: 5%;
-  width: 150px;
-  padding: 10px;
-  border-style: solid;
-  border-color: gray;
-  border-width: 5px;
-  border-radius: 10px;
-  top: 22%;
+
+li {
+    float: left;
 }
-#drones{
-  position: fixed;
-  right: 5%;
-  width: 150px;
-  padding: 10px;
-  border-style: solid;
-  border-color: #E69910;
-  border-width: 5px;
-  border-radius: 10px;
-  top: 40%;
-  transition: 1s;
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
 }
-#drones:hover{
-  border-color: gray;
+
+li a:hover:not(.active) {
+    background-color: #111;
 }
-#dron1{
-  width: 100px;
-  padding-left: 25px;
+
+.active {
+    background-color: #4CAF50;
+    box-shadow: 0px 0px 40px; #211;
 }
-#kora{
-  padding-left: 13px;
-}
-#kora2{
-  padding-left: 13px;
-}
-#kora3{
-  padding-left: 13px;
-}
-#select{
-  top: 15px;
-  left: 350px;
-  width: 30px;
-  position: absolute;
-  padding: 10px;
-}
-#filterbarr{
-  background-color: #404040;
-  position: absolute;
-  width: 100%;
-  height:90px;
-}
-#put1{
-  background-color: #262626;
-  width: 300px;
-  margin-left: 100px;
-}
-#selectt{
-  top: 15px;
-  left: 350px;
-  width: 30px;
-  position: absolute;
-  padding: 10px;
+.page{
+  background-color: white;
+  box-shadow: 0px 0px 10px; #888888;
+  margin: 0 auto;
+  width: 50%;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  margin-bottom: 50px;
 }
